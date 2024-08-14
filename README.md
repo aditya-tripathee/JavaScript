@@ -1,3 +1,3 @@
 # JavaScript
-A brief repo of javascript
+A brief repo of javascript.
 Author - Aditya Tripathi
