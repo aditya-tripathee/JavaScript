@@ -68,7 +68,7 @@ console.log(str1.slice(1,5));
 console.log(str1.replace("i","ee"));
 
 
-// indexOf():--
+// indexOf():-- return the index of characters
 console.log(str1.indexOf("a"));
 
 // includes() :-- is exists in that array or not 
