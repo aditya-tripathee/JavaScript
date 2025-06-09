@@ -50,36 +50,45 @@
 
 
 
-// Comparison operators :--
+// // Comparison operators :--
 
-let a = 5;
-let b = "5";
-// == equal to
-console.log(a==b);
+// let a = 5;
+// let b = "5";
+// // == equal to
+// console.log(a==b);
 
-// != not equal to
-console.log(a!=b);
+// // != not equal to
+// console.log(a!=b);
 
-// !== strictly not equal to
-console.log(a!==b);
+// // !== strictly not equal to
+// console.log(a!==b);
 
-// === strictly equal to
-console.log(a===b);
+// // === strictly equal to
+// console.log(a===b);
 
-// > greater than 
-console.log(a>b);
+// // > greater than 
+// console.log(a>b);
 
-// < less than
-console.log(a<b);
+// // < less than
+// console.log(a<b);
 
-// greater than or equal to
-console.log(a>=b);
+// // greater than or equal to
+// console.log(a>=b);
 
 
 // Logical Operators :--
+let a = 5;
+let b = 4;
+let cond1 = a>b;
+let cond2 = a!=b;
+// && LOGICAL AND :-- both conditions will be true then its gives true
+console.log(cond1 && cond2);
 
-// && LOGICAL AND
 // ! LOGICAL NOT
-// || LOGICAL OR
+console.log(cond1 || cond2);
+
+// || LOGICAL OR :-- gives opposite result
+console.log(!(cond1));
+
 
 
