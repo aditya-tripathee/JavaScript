@@ -1,1 +1,2 @@
-// DOM in JS
+// DOM in JS 
+// Document Object Model
