@@ -91,12 +91,10 @@
 // let age  = 20;
 // if(age>=18){
 //     if(age>=60){
-//         console.log("Senior");
-        
+//         console.log("Senior");     
 //     }
 //     else{
-//         console.log("Middle");
-        
+//         console.log("Middle");    
 //     }
 // }
 // else{
@@ -118,6 +116,21 @@ function getData(dataid,getnextData){
 }
 
 // getData(1,()=>{
+//   getData(2,()=>{
+//     getData(3,()=>{
+//       getData(4,()=>{
+//         getData(5,()=>{
+//           getData(6);
+//         })
+//       })
+//     })
+//   })
+// })
+
+
+
+
+// getData(1,()=>{
 //     getData(2,()=>{
 //         getData(3,()=>{
 //             getData(4,()=>{
@@ -137,17 +150,31 @@ function getData(dataid,getnextData){
 //     // })
 // })
 
-getData(20)
-  .then((res)=>{
-      console.log(res);
-      return getData(30);
-  }).then((res)=>{
-    console.log(res);
-    return getData(40);
-  }).then((res)=>{
-    console.log(res);
-    return getData(50);
-  }).then((res)=>{
-    console.log(res);
-    return getData(60);
-  })
+
+// getData(2).then((res)=>{
+//   console.log(res);
+//   getData(3).then((res)=>{
+//     console.log(res);
+//     getData(3).then((res)=>{
+//       console.log(res);
+//     })
+//   })
+// })
+
+
+
+
+// getData(20)
+//   .then((res)=>{
+//       console.log(res);
+//       return getData(30);
+//   }).then((res)=>{
+//     console.log(res);
+//     return getData(40);
+//   }).then((res)=>{
+//     console.log(res);
+//     return getData(50);
+//   }).then((res)=>{
+//     console.log(res);
+//     return getData(60);
+//   })

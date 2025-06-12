@@ -46,22 +46,43 @@ function getData(dataid){
 // getAllData();
 
 
+async function getAllData(){
+    console.log("data loading1...");
+    await getData(1);
+    
+    console.log("data loading2...");
+    await getData(2);
+
+    console.log("data loading3...");
+    await getData(3);
+    
+    
+}
+
+getAllData();
+
+
+
+
+
+
+
 
 // IIFE :-- Immediately Invoked Function Expressions
 // it is a function that is called immediately as soon as it is defined.
 
-(async function(){
-    console.log("Fetching data1.....");
+// (async function(){
+//     console.log("Fetching data1.....");
     
-    await getData(1);
-    console.log("Fetching data2....");
+//     await getData(1);
+//     console.log("Fetching data2....");
     
-    await getData(2);
-    console.log("Fetching data3...");
+//     await getData(2);
+//     console.log("Fetching data3...");
     
-    await getData(3);
-    console.log("Fetching data4.....");
+//     await getData(3);
+//     console.log("Fetching data4.....");
     
-    await getData(4);
-})();
+//     await getData(4);
+// })();
 
